@@ -50,14 +50,15 @@ display:none;
   .social:hover,
   .social:active {
     background-color: rgba(255, 0, 0, 0.767);
+    padding: 15px 30px;
   }
   ::-moz-selection { /* Code for Firefox */
-color: rgb(213, 202, 202);
+color: rgb(255, 255, 255);
 background: rgb(223, 20, 20);
 }
 
 ::selection {
-color: rgb(213, 202, 202);
+color: rgb(255, 255, 255);
 background: rgb(223, 20, 20);
 }
 img {
@@ -100,9 +101,13 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 8px;
+  padding: 10px 20px;
+  transition: 0.2s;
+  margin-bottom: 100px;
 }
 .buymeacoffee:hover,
 .buymeacoffee:active {
-    background-color: rgb(181, 105, 0);
+    background-color: rgb(204, 112, 0);
+    padding: 15px 30px;
     transition: 0.2s;
   }

@@ -57,12 +57,12 @@ body {
   }
   
   ::-moz-selection { /* Code for Firefox */
-    color: rgb(213, 202, 202);
+    color: rgb(255, 255, 255);
     background: rgb(223, 20, 20);
   }
   
   ::selection {
-    color: rgb(213, 202, 202);
+    color: rgb(255, 255, 255);
     background: rgb(223, 20, 20);
   }
   
