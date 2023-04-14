@@ -24,6 +24,7 @@ header {
   
   nav a:hover {
     color: #c1bec9;
+    transition: 0.1s;
   }
   
   .container {

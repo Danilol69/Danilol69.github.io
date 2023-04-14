@@ -79,6 +79,7 @@ font-size: larger;
 
 nav a:hover {
 color: #c1bec9;
+transition: 0.1s;
 }
 div {
 color:white;
@@ -109,5 +110,15 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 .buymeacoffee:active {
     background-color: rgb(204, 112, 0);
     padding: 15px 30px;
+    transition: 0.2s;
+  }
+  .email{
+    color: rgb(189, 189, 189);
+    font-size: large;
+    text-decoration: none;
+  }
+  .email:hover,
+  .email:active{
+    color: rgb(143, 143, 143);
     transition: 0.2s;
   }
