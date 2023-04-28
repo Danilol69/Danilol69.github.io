@@ -103,6 +103,8 @@ header {
     header {
       position: fixed;
       top: 0;
+      left: 0;
+      right: 0;
       height: 100px;
       display: flex;
       justify-content: flex-end;
@@ -126,5 +128,9 @@ header {
       position:static;
       font-size: 20px;
       text-align: center;
+    }
+    .headerbutton{
+      white-space: nowrap;
+      margin-right: 15px;
     }
   }

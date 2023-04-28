@@ -141,6 +141,8 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     header {
       position: fixed;
       top: 0;
+      left: 0;
+      right: 0;
       height: 100px;
       display: flex;
       justify-content: flex-end;
@@ -163,5 +165,9 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
       position:static;
       font-size: 20px;
       text-align: center;
+    }
+    .headerbutton{
+      white-space: nowrap;
+      margin-right: 15px;
     }
   }
