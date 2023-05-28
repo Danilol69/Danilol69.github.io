@@ -59,7 +59,7 @@ html, body {
     color: white;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 17px 28px;
+    padding: 20px 28px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -67,12 +67,13 @@ html, body {
     margin: 11px auto;
     border-radius: 8px;
     transition: 0.2s;
+    line-height: 1.5;
   }
 
   .social:hover,
   .social:active {
     background-color: rgba(255, 0, 0, 0.767);
-    padding: 20px 30px;
+    padding: 23px 31px;
   }
 
   ::-moz-selection { /* Code for Firefox */
@@ -127,17 +128,17 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   background-color: rgb(255, 149, 0);
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 8px;
-  padding: 10px 20px;
   transition: 0.2s;
   margin-bottom: 100px;
+  line-height: 1.5;
 }
 
 .buymeacoffee:hover,
 .buymeacoffee:active {
     background-color: rgb(204, 112, 0);
-    padding: 15px 30px;
+    padding: 19px 30px;
     transition: 0.2s;
   }
 
@@ -160,10 +161,24 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   p{
     font-size: 20px;
   }
+  #unavailable-text{
+    font-style: italic;
+    font-size: 19px;
+  }
 
   /* Code for mobile */
   @media screen and (max-width: 600px)
   {
+    .social:hover,
+    .social:active{
+      background-color: #f44336;
+      padding: 20px 28px;
+    }
+    .buymeacoffee:hover,
+    .buymeacoffee:active {
+      background: rgb(255, 149, 0);
+      padding: 15px 20px;
+    }
     .container {
       margin-right: 20px;
       margin-left: 20px;
