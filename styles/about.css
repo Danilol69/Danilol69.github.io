@@ -38,6 +38,8 @@ header {
   }
   
   .container {
+    margin-left: 20px;
+    margin-right: 20px;
     color: rgb(252, 252, 252);
     margin-top: 100px;
     display: flex;
@@ -57,7 +59,7 @@ header {
   body {
     margin: 0;
     text-align: start;
-    background-color: #1c2324;
+    background-color: #1e2526;
     background-image: linear-gradient(to bottom right, #141d20, #2e2f2f);
   }
   body::-webkit-scrollbar{
@@ -146,5 +148,14 @@ header {
     .headerbutton{
       white-space: nowrap;
       margin-right: 15px;
+    }
+  }
+  /* Code for mobile and iPad/tablet */
+  @media screen and (max-width: 600px), (max-width: 1024px){
+    .copyright{
+      margin-top: 50px;
+      position:static;
+      font-size: 20px;
+      text-align: center;
     }
   }

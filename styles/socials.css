@@ -32,7 +32,7 @@ html, body {
   body {
     margin: 0;
     text-align: start;
-    background-color: #1c2324;
+    background-color: #1e2526;
     background-image: linear-gradient(to bottom right, #141d20, #2e2f2f);
   }
 
@@ -41,6 +41,8 @@ html, body {
   }
 
   .container {
+    margin-left: 20px;
+    margin-right: 20px;
     color: rgb(252, 252, 252);
     margin-top: 100px;
     display: flex;
@@ -162,6 +164,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     font-size: 20px;
   }
   #unavailable-text{
+    text-align: center;
     font-style: italic;
     font-size: 19px;
   }
@@ -169,16 +172,6 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   /* Code for mobile */
   @media screen and (max-width: 600px)
   {
-    .social:hover,
-    .social:active{
-      background-color: #f44336;
-      padding: 20px 28px;
-    }
-    .buymeacoffee:hover,
-    .buymeacoffee:active {
-      background: rgb(255, 149, 0);
-      padding: 15px 20px;
-    }
     .container {
       margin-right: 20px;
       margin-left: 20px;
@@ -215,13 +208,28 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
       font-size: 18px;
       text-align: center;
     }
-    .copyright{
-      position:static;
-      font-size: 20px;
-      text-align: center;
-    }
     .headerbutton{
       white-space: nowrap;
       margin-right: 15px;
+    }
+  }
+
+  /* Code for mobile and iPad/tablet */
+  @media screen and (max-width: 600px), (max-width: 1024px){
+    .social:hover,
+    .social:active{
+      background-color: #f44336;
+      padding: 20px 28px;
+    }
+    .buymeacoffee:hover,
+    .buymeacoffee:active {
+      background: rgb(255, 149, 0);
+      padding: 15px 20px;
+    }
+    .copyright{
+      margin-top: 50px;
+      position:static;
+      font-size: 20px;
+      text-align: center;
     }
   }
