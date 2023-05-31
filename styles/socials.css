@@ -32,7 +32,7 @@ html, body {
   body {
     margin: 0;
     text-align: start;
-    background-color: #1e2526;
+    background-color: #1d2225;
     background-image: linear-gradient(to bottom right, #141d20, #2e2f2f);
   }
 
@@ -70,12 +70,6 @@ html, body {
     border-radius: 8px;
     transition: 0.2s;
     line-height: 1.5;
-  }
-
-  .social:hover,
-  .social:active {
-    background-color: rgba(255, 0, 0, 0.767);
-    padding: 23px 31px;
   }
 
   ::-moz-selection { /* Code for Firefox */
@@ -128,32 +122,18 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 .buymeacoffee {
   display: inline-block;
   background-color: rgb(255, 149, 0);
+  padding: 15px 20px;
   color: #fff;
   text-decoration: none;
-  padding: 15px 20px;
   border-radius: 8px;
   transition: 0.2s;
   margin-bottom: 100px;
   line-height: 1.5;
 }
 
-.buymeacoffee:hover,
-.buymeacoffee:active {
-    background-color: rgb(204, 112, 0);
-    padding: 19px 30px;
-    transition: 0.2s;
-  }
-
   .email{
     color: rgb(189, 189, 189);
     font-size: large;
-    text-decoration: none;
-  }
-
-  .email:hover,
-  .email:active{
-    color: rgb(143, 143, 143);
-    transition: 0.2s;
   }
 
   .playlistlink{
@@ -168,6 +148,17 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     font-style: italic;
     font-size: 19px;
   }
+    .social:hover,
+    .social:active {
+    background-color: rgba(255, 0, 0, 0.767);
+    padding: 23px 31px;
+    }
+    .buymeacoffee:hover,
+    .buymeacoffee:active {
+      background-color: rgb(204, 112, 0);
+      padding: 19px 30px;
+      transition: 0.2s;
+    }
 
   /* Code for mobile */
   @media screen and (max-width: 600px)
@@ -213,23 +204,23 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
       margin-right: 15px;
     }
   }
-
-  /* Code for mobile and iPad/tablet */
-  @media screen and (max-width: 600px), (max-width: 1024px){
+  
+  /* Code for mobile devices, such as smartphones or tablets */
+  @media only screen and (max-width: 1024px) and (pointer: coarse), (hover: none) {
+    .copyright {
+      margin-top: 50px;
+      position: static;
+      font-size: 20px;
+      text-align: center;
+    }
     .social:hover,
-    .social:active{
+    .social:active {
       background-color: #f44336;
       padding: 20px 28px;
     }
     .buymeacoffee:hover,
     .buymeacoffee:active {
-      background: rgb(255, 149, 0);
+      background-color: rgb(255, 149, 0);
       padding: 15px 20px;
-    }
-    .copyright{
-      margin-top: 50px;
-      position:static;
-      font-size: 20px;
-      text-align: center;
     }
   }
