@@ -36,6 +36,7 @@ html, body {
     background-image: linear-gradient(to bottom right, #141d20, #2e2f2f);
   }
 
+  /* Hide scrollbars for WebKit-based browsers */
   body::-webkit-scrollbar{
   display: none;
   }
@@ -119,18 +120,6 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     padding: 5px;
 }
 
-.buymeacoffee {
-  display: inline-block;
-  background-color: rgb(255, 149, 0);
-  padding: 15px 20px;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: 0.2s;
-  margin-bottom: 100px;
-  line-height: 1.5;
-}
-
   .email{
     color: rgb(189, 189, 189);
     font-size: large;
@@ -153,22 +142,14 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     background-color: rgba(255, 0, 0, 0.767);
     padding: 23px 31px;
     }
-    .buymeacoffee:hover,
-    .buymeacoffee:active {
-      background-color: rgb(204, 112, 0);
-      padding: 19px 30px;
-      transition: 0.2s;
-    }
+  #talktome{
+    margin-bottom: 150px;
+  }
 
   /* Code for mobile */
   @media screen and (max-width: 600px)
   {
-    .container {
-      margin-right: 20px;
-      margin-left: 20px;
-      font-size: 18px;
-      line-height: 50px;
-    }
+  
     .headline {
       font-size: 32px;
       margin-top: 100px;
@@ -195,10 +176,6 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     .supporttext{
       font-size: 25px;
     }
-    .container {
-      font-size: 18px;
-      text-align: center;
-    }
     .headerbutton{
       white-space: nowrap;
       margin-right: 15px;
@@ -218,9 +195,8 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
       background-color: #f44336;
       padding: 20px 28px;
     }
-    .buymeacoffee:hover,
-    .buymeacoffee:active {
-      background-color: rgb(255, 149, 0);
-      padding: 15px 20px;
+    .container {
+      font-size: 18px;
+      text-align: center;
     }
   }

@@ -38,6 +38,7 @@ header {
   }
   
   .container {
+    text-align: center;
     margin-left: 20px;
     margin-right: 20px;
     color: rgb(252, 252, 252);
@@ -62,6 +63,8 @@ header {
     background-color: #1d2225;
     background-image: linear-gradient(to bottom right, #141d20, #2e2f2f);
   }
+
+  /* Hide scrollbars for WebKit-based browsers */
   body::-webkit-scrollbar{
       display: none;
     }
@@ -98,6 +101,9 @@ header {
     left: 0;
     margin: 0;
     padding: 5px;
+  }
+  #linktorepositories{
+    color: rgb(255, 111, 0);
   }
 
   /* Code for mobile */
